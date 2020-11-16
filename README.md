@@ -2,6 +2,7 @@
 Backend da Plataforma EAD
 
 Informações:
+API em Node da Plataforma EAD
 
 Instalação:
 - Faça o clone do projeto
