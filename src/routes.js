@@ -4,6 +4,8 @@ const CourseController = require('../controllers/CourseController')
 
 const routes = Router()
 
+routes.get('/', (req, res) => { res.json({ msg: 'Servidor OK' }) })
+
 routes.get('/students', StudentController.index)
 
 routes.post('/students', StudentController.store)
